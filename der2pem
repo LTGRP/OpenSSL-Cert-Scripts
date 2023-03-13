@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Enter the name of the der file"
+read file
+
+openssl x509 -in $file.der -out $file.pem
+
+echo "DER file is ready $file.der"
