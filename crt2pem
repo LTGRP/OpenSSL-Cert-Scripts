@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Enter the name of the crt file"
+read file
+
+openssl x509 -in $file.crt -out $file.pem
+
+echo "PEM file is ready $file.pem"
