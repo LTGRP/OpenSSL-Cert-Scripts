@@ -9,6 +9,10 @@ cer2pem converts cer files to pem files
 
 der2pem converts cer files to pem files
 
+Read PEM:
+
+pem2txt prints pem file to stdout
+
 Check Server Certificate:
 
 check-server-ssl checks the certificate of a specificed domain defaults to port 443
