@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Enter the name of the pem file without extension"
+read file
+
+openssl x509 -in $file.crt -text -noout
